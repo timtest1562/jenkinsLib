@@ -11,5 +11,5 @@ def call(body) {
   def name = maVars.name
   def action = maVars.action
   
-  println("action + " " + name + " !!!");
+  println(action + " " + name + " !!!");
 }
