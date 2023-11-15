@@ -8,8 +8,8 @@ def call(body) {
   body.delegate          = mapVars
   body()
 
-  def name = maVars.name
-  def action = maVars.action
+  def name = mapVars.name
+  def action = mapVars.action
   
   println(action + " " + name + " !!!");
 }
